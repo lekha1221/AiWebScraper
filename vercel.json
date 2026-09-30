@@ -1,0 +1,10 @@
+{
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/", "destination": "/templates/home.html" },
+    { "source": "/dashboard", "destination": "/index.html" },
+    { "source": "/login", "destination": "/templates/login.html" },
+    { "source": "/signup", "destination": "/templates/signup.html" },
+    { "source": "/forgot-password", "destination": "/templates/forgot_password.html" }
+  ]
+}
